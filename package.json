@@ -1,0 +1,29 @@
+
+{
+      "name":           		"ea-backup"
+    , "description":    		"backup agent: supports aws rds & s3, mysql and fs full and incremental backup to disk ( external drives with disk rotation ) & ssh targets"
+    , "version":        		"0.1.0"
+    , "homepage":       		"https://github.com/eventEmitter/ea-backup"
+    , "author":         		"Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "repository": {
+        "url":          		"https://github.com/eventEmitter/ea-backup"
+    }
+    , "engines": {
+        "node":         		"*"
+    }
+    , "bugs": {
+        "url":          		"https://github.com/eventEmitter/ea-backup/issues"
+    }
+    , "dependencies": {
+          "ee-class":       	"*"
+        , "ee-event":       	"*"
+        , "ee-project":         "*"
+        , "ee-log":             "*"
+        , "ee-waiter":          "*"
+        , "ee-mysql-schema": 	"*"
+        , "ee-taskscheduler":   "*"
+        , "npm":                "*"
+    }
+    , "devDependencies": 		{}
+    , "optionalDependencies": 	{}
+}
