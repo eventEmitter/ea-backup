@@ -1,5 +1,7 @@
 #ea backup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ea-backup.svg)](https://greenkeeper.io/)
+
 *** not yet finished! ***
 
 backup agent configured via mysql supporting full & incremental backups of:
